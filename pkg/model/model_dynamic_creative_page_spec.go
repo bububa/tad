@@ -15,4 +15,7 @@ type DynamicCreativePageSpec struct {
 	PageUrl                  *string                   `json:"page_url,omitempty"`
 	ChannelsShopProductSpec  *ChannelsShopProductSpec  `json:"channels_shop_product_spec,omitempty"`
 	OverrideCanvasHeadOption *OverrideCanvasHeadOption `json:"override_canvas_head_option,omitempty"`
+	DynamicProductSpec       *DynamicProductSpec       `json:"dynamic_product_spec,omitempty"`
+	MiniProgramSpec          *MiniProgramSpec          `json:"mini_program_spec,omitempty"`
+	MiniGameSpec             *MiniGameSpec             `json:"mini_game_spec,omitempty"`
 }
