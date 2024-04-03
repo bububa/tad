@@ -11,7 +11,8 @@ package model
 
 // 落地页信息
 type DynamicCreativePageSpec struct {
-	PageId                  *int64                   `json:"page_id,omitempty"`
-	PageUrl                 *string                  `json:"page_url,omitempty"`
-	ChannelsShopProductSpec *ChannelsShopProductSpec `json:"channels_shop_product_spec,omitempty"`
+	PageId                   *int64                    `json:"page_id,omitempty"`
+	PageUrl                  *string                   `json:"page_url,omitempty"`
+	ChannelsShopProductSpec  *ChannelsShopProductSpec  `json:"channels_shop_product_spec,omitempty"`
+	OverrideCanvasHeadOption *OverrideCanvasHeadOption `json:"override_canvas_head_option,omitempty"`
 }
