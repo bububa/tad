@@ -1,5 +1,7 @@
 # Aggregation
 
+# ProfileType
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
