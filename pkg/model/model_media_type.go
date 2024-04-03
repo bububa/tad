@@ -18,7 +18,4 @@ const (
 	MediaType_MEDIA_TYPE_AVI MediaType = "MEDIA_TYPE_AVI"
 	MediaType_MEDIA_TYPE_MOV MediaType = "MEDIA_TYPE_MOV"
 	MediaType_MEDIA_TYPE_FLV MediaType = "MEDIA_TYPE_FLV"
-	MediaType_VIDEO_TYPE_MP4 MediaType = "VIDEO_TYPE_MP4"
-	MediaType_VIDEO_TYPE_AVI MediaType = "VIDEO_TYPE_AVI"
-	MediaType_VIDEO_TYPE_MOV MediaType = "VIDEO_TYPE_MOV"
 )

@@ -31,8 +31,8 @@ type WechatPagesApiService service
 
 /*
 WechatPagesApiService 基于模板创建微信原生页
- * @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
- * @param data
+  - @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
+  - @param data
 
 @return WechatPagesAddResponse
 */
@@ -136,8 +136,8 @@ func (a *WechatPagesApiService) Add(ctx context.Context, data WechatPagesAddRequ
 
 /*
 WechatPagesApiService 删除微信落地页
- * @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
- * @param data
+  - @param ctx context.Context - for authentication, logging, cancellation, deadlines, tracing, etc. Passed from http.Request or context.Background().
+  - @param data
 
 @return WechatPagesDeleteResponse
 */
